@@ -1,4 +1,4 @@
-import time, logging
+import sys, time, logging
 import pandas as pd
 from .query import load_csv
 
