@@ -29,6 +29,8 @@ datareader('AAPL', '2010-01-01', '2020-12-31, interval='1d', event='history')
 Getting multiply tickers daily historical price data
 ```python
 tickers = ['AAPL', 'TSLA', 'AMD', 'NVDA']
+```
+```python
 datareader(tickers, '2010-01-01', '2020-12-31', interval='1d', event='history')
 ```
 
