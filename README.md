@@ -18,7 +18,7 @@ pip install git+https://github.com/KWYing/yf-query.git#yfQuery
 
 **Use**
 
-Getting single ticker daily historical price data
+Getting single ticker's daily historical price data
 ```python
 from yfQuery import datareader
 ```
@@ -26,7 +26,7 @@ from yfQuery import datareader
 datareader('AAPL', '2010-01-01', '2020-12-31, interval='1d', event='history')
 ```
 
-Getting multiply tickers daily historical price data
+Getting multiple tickers' daily historical price data
 ```python
 tickers = ['AAPL', 'TSLA', 'AMD', 'NVDA']
 ```
