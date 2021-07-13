@@ -25,5 +25,5 @@ tickers = ['AAPL', 'TSLA', 'AMD', 'NVDA']
 datareader(tickers, '2010-01-01', '2020-12-31', interval='1d', evernt='history')
 ```
 
--interval : '1d', '1wk' or '1mo'
--event: 'history', 'dividend', or 'split'
+- interval : '1d', '1wk' or '1mo'
+- event: 'history', 'dividend', or 'split'
