@@ -21,7 +21,8 @@ pip install git+https://github.com/KWYing/yf-query.git#yfQuery
 Getting single ticker daily historical price data
 ```python
 from yfQuery import datareader
-
+```
+```python
 datareader('AAPL', '2010-01-01', '2020-12-31, interval='1d', event='history')
 ```
 
